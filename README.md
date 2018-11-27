@@ -3,9 +3,11 @@
 What is DialogueSamplePlayer:
 -----------------------------
 This is a player desinged to play samples for a dialogue of three persons.
-Therfore the buttons are ordered in an table with three columns. Each of the 
-columns represents one person. For each person the player chooses one output 
+Therfore the buttons are ordered in an table with three columns and three colors. Each of the 
+columns and colors represents one person. For each person the player chooses one output 
 channel.
+
+In addition there is an uttering section at the top. Maybe you need these buttons to make the dialogue more immersive.
 
 The Dialogue Sample Player markes the played samples with bluish green color.
 To reset the color of all buttons press 'Reset' or if you just want to reset one
@@ -15,6 +17,11 @@ Further the player sends OSC commands when a player starts playing and when the
 user clicked the stop, ring, hangup or reset button.
 
 Prerequisites:
+------------
+1. Install Python (version 3.6 or later): https://www.python.org/downloads/
+2. Run setup.bat (installs numpy, sounddevice, soundfile, PyQT5, python-osc)
+
+Quick start (for Windows):
 ------------
 1. Install Python (version 3.6 or later): https://www.python.org/downloads/
 2. Run setup.bat (installs numpy, sounddevice, soundfile, PyQT5, python-osc)
